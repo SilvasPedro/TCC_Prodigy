@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="shortcut icon" href="img/fav-ico.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Prodigy</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar barra">
+        <a class="navbar-brand" href="#"><img src="img/prodigy.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <img src="img/menu.png" alt="">
+        </button>
+        <div class="collapse navbar-collapse barra" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Ínicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="cadastro-titulo">
+        <p>Olá novo usuário! É um prazer tê-lo conosco.</p>
+        <p>Pedimos que preencha todos os dados solicitados
+        <br>para a criação da sua nova conta. Nos vemos em breve!</p>
+      </div>
+      <div class="cadastro primeiro">
+        <h1>Dados principais</h1>
+        <form action="">
+            <label for="email">Email</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: email@contato.com"><br>
+            <label for="confirm-email">Confirmar e-mail</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: email@contato.com"><br>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: Marcelo Antônio Nunes"><br>
+            <label for="nascimento">Data de nascimento</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: 01/01/2000"><br>
+            <button>Avançar</button>
+        </form>
+      </div>
+ 
+      <div class="cadastro segundo">
+        <h1>Contato</h1>
+        <form action="">
+            <label for="email">Telefone/Celular</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: (00)12345-6789"><br>
+            <label for="confirm-email">E-mail secundário</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: email@contato.com"><br>
+            <label for="nome">Estado</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: São Paulo"><br>
+            <label for="nascimento">Cidade</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: São Paulo"><br>
+            <button>Avançar</button>
+        </form>
+      </div>
+
+      <div class="cadastro terceiro">
+        <h1>Dados Comerciais</h1>
+        <form action="">
+            <label for="email">Nome da empresa</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: Prodigy"><br>
+            <label for="confirm-email">CNPJ</label><br>
+            <input type="email" name="" id="" required placeholder="Ex.: 01.123.145/0001-00"><br>
+            <label for="nome">Nicho</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: Loja de autopeças"><br>
+            <label for="nascimento">Data de fundação</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: 12/03/1989"><br>
+            <button>Avançar</button>
+        </form>
+      </div>
+
+      <div class="cadastro quarto">
+        <h1>Segurança</h1>
+        <form action="">
+            <label for="email">Senha</label><br>
+            <input type="password" name="" id="" required placeholder="**********"><br>
+            <label for="confirm-email">Confirmar senha</label><br>
+            <input type="password" name="" id="" required placeholder="**********"><br>
+            <label for="nome">E-mail de recuperação</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: email@contato.com"><br>
+            <label for="nascimento">Confirmar e-mail de recuperação</label><br>
+            <input type="text" name="" id="" required placeholder="Ex.: email@contato.com"><br>
+            <button>Avançar</button>
+        </form>
+      </div>
+
+      <div class="container-fluid d-flex">
+        <div class="step-on"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+      </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
